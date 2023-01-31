@@ -1,0 +1,53 @@
+<html>
+  <script>
+    //Um número primo é aquele que só é divisível por 1 e por ele mesmo.
+    //O número 1 não é considerado um número primo.
+
+    function verificaNumeroPrimo(numero) {
+      var resultado = true;
+
+      for (var i = 2; i < numero; i++) {
+        if (numero % i === 0) {
+          resultado = false;
+          break;
+        }
+      }
+      return resultado;
+    }
+
+    function primosMenoresQueX(numero) {
+      var primos = [];
+      for (var i = 2; i < numero; i++) {
+        if (verificaNumeroPrimo(i)) {
+          primos.push(i);
+        }
+      }
+      return primos;
+    }
+
+    function somaPrimosMenoresQueX(numero) {
+      var primos = primosMenoresQueX(numero);
+      var total = 0;
+
+      for (var i = 0; i < primos.length; i++) {
+        total = total + primos[i];
+      }
+
+      return total;
+    }
+
+    function verificaNumeroPrimoComWhile(numero) {
+      var resultado = true;
+
+      var i = 2;
+      while (i < numero) {
+        if (numero % i === 0) {
+          resultado = false;
+          break;
+        }
+        i++;
+      }
+      return resultado;
+    }
+  </script>
+</html>
