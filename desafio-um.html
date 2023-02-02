@@ -1,0 +1,17 @@
+<html>
+  <script>
+    //Verifica números múltiplos de 3 ou 5 menores que valor de entrada
+    function somaMultiplos3ou5(numero) {
+
+      var soma = 0;
+
+      for (var i = 0; i < numero; i++) {
+        if (i % 3 === 0 || i % 5 === 0 ) {
+          soma = i + soma;
+        }
+      }
+      return soma;
+    }
+
+  </script>
+</html>
