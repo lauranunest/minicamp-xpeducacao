@@ -1,0 +1,5 @@
+1- criação dos arquivos HTML, CSS e JS
+2- configuração básica dos arquivos
+3- construir a estrutura do HTML
+4- criar a lógica no JS
+5- estilização do CSS
