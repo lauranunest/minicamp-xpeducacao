@@ -6,8 +6,8 @@ Roteiro - curriculo-v1
 
 (x) Inserir tags <header> com <h1> e <main>
 
-() Dentro de main:
-   () Inserir nome
-   () Inserir cargos
-   () Inserir formação acadêmica
-   () Inserir tecnologias
+(x) Dentro de main:
+   (x) Inserir nome
+   (x) Inserir cargos
+   (x) Inserir formação acadêmica
+   (x) Inserir tecnologias
